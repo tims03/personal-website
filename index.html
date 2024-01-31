@@ -231,6 +231,22 @@
           <p><a href="https://www.linkedin.com/in/timothyson03/">LinkedIn</a></p>
         </div>
       </div>
+
+      <div class="message-box">
+        <h2>Send me a message:</h2>
+        <form id="messageForm" method="post" action="http://localhost:3000/submit-message">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </section>
     <footer>
       <nav>
